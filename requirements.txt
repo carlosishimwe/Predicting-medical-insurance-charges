@@ -5,5 +5,3 @@ pandas @ file:///C:/ci/pandas_1602083338010/work
 pandas-profiling==2.11.0
 plotly==4.14.3
 Pillow @ file:///C:/ci/pillow_1603823068645/work
-
-
