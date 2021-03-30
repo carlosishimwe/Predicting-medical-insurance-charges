@@ -2,11 +2,11 @@ import streamlit as st
 import pandas as pd
 import numpy as np
 from PIL import Image
-from pandas_profiling import ProfileReport
+#from pandas_profiling import ProfileReport
 from pycaret.regression import load_model, predict_model
 
 import streamlit.components.v1 as components
-from streamlit_pandas_profiling import st_profile_report
+#from streamlit_pandas_profiling import st_profile_report
 
 #Machine learning
 model = load_model('insurance_kaggle')
@@ -44,12 +44,12 @@ if option == 'Dataset' :
 	st.text('region: In the United states , northeast, southeast, southwest, northwest.')
 	st.text('charges: Individual medical costs billed by health insurance')
 	
-if option == 'Exploratory Data analysis' :
-	df = pd.read_csv("insurance.csv")
-	load_state = st.text('Loading..')
-	load_state.text('Chargement terminé!')
-	profile = ProfileReport(df)
-	st_profile_report(profile)
+#if option == 'Exploratory Data analysis' :
+	#df = pd.read_csv("insurance.csv")
+	#load_state = st.text('Loading..')
+	#load_state.text('Chargement terminé!')
+	#profile = ProfileReport(df)
+	#st_profile_report(profile)
 
 
 if option == 'Predict your insurance charges price' :
