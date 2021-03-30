@@ -1,7 +1,7 @@
-streamlit==0.79.0
-streamlit-pandas-profiling==0.1.1
-pycaret==2.3.0
+streamlit
+streamlit-pandas-profiling
+pycaret
 pandas @ file:///C:/ci/pandas_1602083338010/work
-pandas-profiling==2.11.0
-plotly==4.14.3
+pandas-profiling
+plotly
 Pillow @ file:///C:/ci/pillow_1603823068645/work
