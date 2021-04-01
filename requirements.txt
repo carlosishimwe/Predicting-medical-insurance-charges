@@ -2,5 +2,5 @@ streamlit==0.79.0
 pandas
 numpy==1.19.5
 Pillow
-streamlit-pandas-profiling==2.11.0
+streamlit-pandas-profiling
 pycaret==2.3.0
